@@ -10,10 +10,10 @@ const bodyParser = require('body-parser');
 const uriBaseSentiment = 'https://eastus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment';
 const uriBaseKeyPhrases = 'https://eastus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases';
 
-const azureKey = '06990c29a6b94f19acffdc32013fbf2f';
+const azureKey = 'URAZUREKEY';
 
-const yelpKey = 'qIZeDXn4YWCCBL4z2EgiTxcHpiO0JG2-0v_jD_vJZKJbBHUYRAsMKgBWyjIdlzKsJPXIEphpnl1d1kJgNuomfnJnk0uvFugGCE36xBRTle56cgZYuCx8mKxpm9kCXHYx';
-const yelpClientId = 'UQUYBAGL8iFWBAjrUsJ2XQ';
+const yelpKey = 'URYELPKEY';
+const yelpClientId = 'URCLIENTID';
 
 const yelp = require('yelp-fusion');
 const client = yelp.client(yelpKey);
